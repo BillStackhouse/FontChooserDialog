@@ -18,5 +18,5 @@ font will update all sliders and sample text.
 	&lt;/dependency&gt;
 </pre>
 <b>Screenshot</b>
-<img src="doc-files/FontChooserDialog.jpg" width="100%" alt="FontChooserDialog.jpg">
+<img src="src/doc-files/FontChooserDialog.jpg" width="100%" alt="FontChooserDialog.jpg">
 </p>
