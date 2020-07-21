@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.billsdesk.library.github</groupId>
-	<artifactId>KeyReporter</artifactId>
+	<artifactId>FontChooserDialog</artifactId>
 	<version>1.0.0</version>
 
 	<dependencies>
@@ -16,6 +16,12 @@
 			<version>3.0.2</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.3.1</version>
+		</dependency>
 
 		<!-- JUnit 5 Only, not needed for non-tests -->
 
@@ -24,6 +30,13 @@
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
 			<version>5.6.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.assertj/assertj-swing-junit -->
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-swing-junit</artifactId>
+			<version>3.9.2</version>
 		</dependency>
 	</dependencies>
 
