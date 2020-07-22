@@ -11,11 +11,19 @@ font will update all sliders and sample text.
 <pre>
 	Java 11
 
-	&lt;dependency&gt;
-		&lt;groupId&gt;com.google.code.findbugs&lt;/groupId&gt;
-		&lt;artifactId&gt;jsr305&lt;/artifactId&gt; &lt;!--  javax.annotations --&gt;
-		&lt;version&gt;3.0.2&lt;/version&gt;
-	&lt;/dependency&gt;
+
+	See pom.xml:
+		Main code
+			com.google.code.findbugs  jsr305 // javax.annotations
+			avax.xml.bind  axb-api  // xml parser
+		Testing only
+			org.junit.jupiter  junit-jupiter // JUnit 5
+			org.assertj  assertj-swing-junit // GUI testing
+
+		Selected files required for non-test source.
+
+		<img src="JarList.jpg" width ="50%" alt="JarList.jpg">
+
 </pre>
 <b>Screenshot</b>
 <img src="src/com/billsdesk/github/fontchooserdialog/doc-files/FontChooserDialog.jpg" width="100%" alt="FontChooserDialog.jpg">
